@@ -1,0 +1,33 @@
+#this program is probably not the best form of therapy, but hey, if u need some advice she's here for u
+
+import random
+
+print('what is ur question??')
+input().lower() 
+
+def reply(num):
+    if num == 1:
+        return 'sure, why not'
+    elif num == 2:
+        return 'go for it, yolo'
+    elif num == 3:
+        return 'uh..try rethinking that'
+    elif num == 4:
+        return 'why do u wanna know'
+    elif num == 5:
+        return 'ask again'
+    elif num == 6:
+        return 'maybe, not maybe'
+    elif num == 7:
+        return 'lol figure it out yourself'
+    elif num == 8:
+        return 'yes'
+    elif num == 9:
+        return 'smoke about it'
+    elif num == 10:
+        return 'no'
+
+print(reply(random.randint(1,10)))
+
+
+
